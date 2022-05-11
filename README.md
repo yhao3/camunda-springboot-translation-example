@@ -1,6 +1,7 @@
 # i18N 配置
 ## ABOUT
 此 camunda 專案透過 Spring Boot 建置，並將語系配置為『繁體中文(zh-TW)』。
+![image](./preview.png)
 
 ## 參考資料
 [Configuration](https://docs.camunda.org/manual/latest/webapps/tasklist/configuration/#localization)
@@ -16,9 +17,15 @@
     - `locales`: 用來存放翻譯檔，必須是 `.json` 檔
     - `script`: 用來存放 `config.js` 配置檔
 ## 啟動專案
+### Run
 ```
 mvn clean install
 ```
 ```
 mvn spring-boot:run
 ```
+### Now browse to: 
+http://localhost:8080/
+### User: 
+Username: `demo`
+Password: `demo`
